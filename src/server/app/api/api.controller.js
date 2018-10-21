@@ -157,7 +157,7 @@ Router.get('/:application', (req, res) => {
     action,
     appParams: {
       page,
-      ...apiParams
+      ...appParams
     },
     query,
     all,
